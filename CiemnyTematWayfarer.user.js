@@ -86,6 +86,7 @@ css+='h4.title-description{color:#eee;font-weight:normal;}';
 css+='.modal-content{background:#333;}';
 css+='#low-quality-modal{color:#eee;}';
 
+css+='.known-information-need-edit{background:#333;}';
 css+='.duplicate-map-popup-title{color:#222;}';
 
 var head=document.head||document.getElementsByTagName('head')[0],
