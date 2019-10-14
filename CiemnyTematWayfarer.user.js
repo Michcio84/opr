@@ -87,6 +87,7 @@ css+='.modal-content{background:#333;}';
 css+='#low-quality-modal{color:#eee;}';
 
 css+='.known-information-need-edit{background:#333;}';
+css+='.text-input.text-input{color:#ccc;}';
 css+='.duplicate-map-popup-title{color:#222;}';
 
 var head=document.head||document.getElementsByTagName('head')[0],
