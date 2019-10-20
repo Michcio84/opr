@@ -4,7 +4,7 @@
 // @namespace    http://tampermonkey.net/
 // @updateURL    https://github.com/Michcio84/opr/raw/master/CiemnyTematWayfarer.user.js
 // @downloadURL  https://github.com/Michcio84/opr/raw/master/CiemnyTematWayfarer.user.js
-// @version      0.2
+// @version      0.3
 // @description  Ciemny motyw
 // @author       MichcioAn
 // @match        https://wayfarer.nianticlabs.com/*
@@ -141,7 +141,8 @@ css+=
   '.known-information-need-edit{background:#333;}' +
   '.known-information-card{background-color:rgba(0,0,0,0.25);}' +
   '.known-information-card .known-information-map-icon::before '+
-  '  {-webkit-filter:invert(100%);filter:invert(100%);}';
+  '  {-webkit-filter:invert(100%);filter:invert(100%);}' +
+  '.known-information-description .known-information-need-edit{background:#333;}';
   
 /* pomoc */
 css+=
