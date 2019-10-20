@@ -17,7 +17,7 @@
 'use strict';
 
 // brak dostępu do Wayfarer
-var css+=' \
+var css=' \
   div.niantic-logo-background-parent>a.global-back-button{color:#eee}; \
   div.niantic-logo-background-parent>a>img{-webkit-filter:invert(100%);filter:invert(100%);} \
 ';
