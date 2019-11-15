@@ -4,7 +4,7 @@
 // @namespace    http://tampermonkey.net/
 // @updateURL    https://github.com/Michcio84/opr/raw/master/CiemnyTematWayfarer.user.js
 // @downloadURL  https://github.com/Michcio84/opr/raw/master/CiemnyTematWayfarer.user.js
-// @version      0.3
+// @version      0.4 [2019-11-15]
 // @description  Ciemny motyw
 // @author       MichcioAn
 // @match        https://wayfarer.nianticlabs.com/*
@@ -32,6 +32,7 @@ css+=
   ".glyphicon{font-family:'Glyphicons Halflings' !important;}" +
   // ogólne
   'body{background:#222;color:#ddd;}' +
+  '.container{background:#222;}' +
   '.button-secondary{background:#555;color:#ddd;box-shadow:1px 2px 4px #000;}' +
   '.button-secondary:focus,.button-secondary:hover{background:#444;}' +
   '.button-primary{color:#ddd;box-shadow:1px 2px 4px #000;}' +
@@ -107,7 +108,8 @@ css+=
   '#map .gm-style button img{background-color: transparent;}' +
   // dokładność lokalizacji
   '.card-header__description{color:#aaa}' +
-  '.flex-map-row span:nth-last-child(1){font-size:1em;color:#f7ff89;display:block !important;}' +
+  '#photo-card>div.card__body>span>span{color:#f7ff89;display:block !important;}' +
+  //'.flex-map-row span:nth-last-child(1){font-size:1em;color:#f7ff89;display:block !important;}' +
   // co to jest ?
   '.card__body input.text-input{background:#222;color:#ccc;}' +
   '.card__body input.text-input::placeholder{color:#aaa;}' +
