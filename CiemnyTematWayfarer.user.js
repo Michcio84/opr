@@ -4,7 +4,7 @@
 // @namespace    http://tampermonkey.net/
 // @updateURL    https://github.com/Michcio84/opr/raw/master/CiemnyTematWayfarer.user.js
 // @downloadURL  https://github.com/Michcio84/opr/raw/master/CiemnyTematWayfarer.user.js
-// @version      0.4 [2019-11-15]
+// @version      0.5.20191115
 // @description  Ciemny motyw
 // @author       MichcioAn
 // @match        https://wayfarer.nianticlabs.com/*
@@ -109,7 +109,6 @@ css+=
   // dokładność lokalizacji
   '.card-header__description{color:#aaa}' +
   '#photo-card>div.card__body>span>span{color:#f7ff89;display:block !important;}' +
-  //'.flex-map-row span:nth-last-child(1){font-size:1em;color:#f7ff89;display:block !important;}' +
   // co to jest ?
   '.card__body input.text-input{background:#222;color:#ccc;}' +
   '.card__body input.text-input::placeholder{color:#aaa;}' +
@@ -140,11 +139,7 @@ css+=
   // duplikat
   '.duplicate-map-popup-title{color:#222;}' +
   // edycja lokalizacji, nazwy, opisu
-  '.known-information-need-edit{background:#333;}' +
-  '.known-information-card{background-color:rgba(0,0,0,0.25);}' +
-  '.known-information-card .known-information-map-icon::before '+
-  '  {-webkit-filter:invert(100%);filter:invert(100%);}' +
-  '.known-information-description .known-information-need-edit{background:#333;}';
+  '.known-information{background-color:#222;color:#ddd;}';
   
 /* pomoc */
 css+=
